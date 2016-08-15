@@ -1,0 +1,39 @@
+
+\newcommand{\VersionDocument}{1.0}
+\newcommand{\RevisionDocument}{1}
+\newcommand{\pathImages}{Images}
+
+
+\documentclass[a4paper,12pt,titlepage]{report}
+
+\include{Packages}
+\usepackage[morefloats=10]{morefloats}
+\title{ \LaTeX }
+\author{Thomas NAUDET}
+\date{\today}
+
+\begin{document}
+
+%\includepdf[pages=-]{couv.pdf}
+%\includepdf[pages=-,offset=0ex 2ex]{couv2.pdf}
+
+\include{FrontPage}
+
+\renewcommand{\contentsname}{Contents}
+\tableofcontents % Table des matières
+
+%\section{Table des figures}
+%\renewcommand{\listfigurename}{}
+\listoffigures
+
+%\section{Liste des tableaux}
+%\renewcommand{\listtablename}{}
+\listoftables
+\newpage
+
+\include{Introduction}
+\newpage
+
+\end{document}
+
+%--- END 
