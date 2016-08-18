@@ -23,6 +23,15 @@
 \usepackage{pdfpages}
 \pagestyle{fancy}
 
+% Chapter title size
+\usepackage{titlesec}    
+\titleformat{\chapter}[display]
+{\normalfont%
+    \Large % 1st line
+    \bfseries}{\chaptertitlename\ \thechapter}{20pt}{%
+    \Huge % 2nd line
+    }
+
 % Pour ajouter d'autre sous-section
 \setcounter{secnumdepth}{4}
 \setcounter{tocdepth}{3}
