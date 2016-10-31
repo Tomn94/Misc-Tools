@@ -4,7 +4,7 @@
 - Apple Script
   - Find .scpt files from .app in `*.app/Contents/Resources/Scripts`
   - My scripts:
-    - **Android Emulator** 🤖<br>
+    - **Android Emulator** 🤖<br>
       Launch Android Emulator with a smartphone configured in Android Studio
     - **App Valider** 🔓<br>
       Remove mac OS Gatekeeper 1st launch verification from a given downloaded app
