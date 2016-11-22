@@ -8,6 +8,8 @@
       Launch Android Emulator with a smartphone configured in Android Studio
     - **App Valider** 🔓<br>
       Remove mac OS Gatekeeper 1st launch verification from a given downloaded app
+    - **Capture** 📷<br>
+      Launch and configure QuickTime Player to record my iPhone screen & sound
     - **Pick Color** 🖌<br>
       Persistent macOS Color picker tool window
     - **http** 📥<br>
