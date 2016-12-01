@@ -16,6 +16,8 @@
       Download the file at a given URL
     - **LaTeX** 💀<br>
       Delete every useless LaTeX files after compilation
+    - **Git Tag** 🏷<br>
+      Create and push a new tag in the current repository
     - **No lyrics** 💬<br>
       Find tracks in iTunes which have no lyrics
     - **SoundCloud Artwork** 🖼<br>
