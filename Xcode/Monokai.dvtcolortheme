@@ -5,23 +5,23 @@
 	<key>DVTConsoleDebuggerInputTextColor</key>
 	<string>0.973 0.973 0.941 1</string>
 	<key>DVTConsoleDebuggerInputTextFont</key>
-	<string>Menlo-Bold - 14.0</string>
+	<string>SFMono-Bold - 14.0</string>
 	<key>DVTConsoleDebuggerOutputTextColor</key>
 	<string>0.973 0.973 0.941 1</string>
 	<key>DVTConsoleDebuggerOutputTextFont</key>
-	<string>Menlo-Regular - 14.0</string>
+	<string>SFMono-Regular - 14.0</string>
 	<key>DVTConsoleDebuggerPromptTextColor</key>
 	<string>0.681008 0.682086 0.663257 1</string>
 	<key>DVTConsoleDebuggerPromptTextFont</key>
-	<string>Menlo-Bold - 14.0</string>
+	<string>SFMono-Bold - 14.0</string>
 	<key>DVTConsoleExectuableInputTextColor</key>
 	<string>0.973 0.973 0.941 1</string>
 	<key>DVTConsoleExectuableInputTextFont</key>
-	<string>Menlo-Regular - 14.0</string>
+	<string>SFMono-Regular - 14.0</string>
 	<key>DVTConsoleExectuableOutputTextColor</key>
 	<string>0.973 0.973 0.949 1</string>
 	<key>DVTConsoleExectuableOutputTextFont</key>
-	<string>Menlo-Bold - 14.0</string>
+	<string>SFMono-Bold - 14.0</string>
 	<key>DVTConsoleTextBackgroundColor</key>
 	<string>0.153 0.157 0.133 1</string>
 	<key>DVTConsoleTextInsertionPointColor</key>
@@ -35,7 +35,7 @@
 	<key>DVTMarkupTextBorderColor</key>
 	<string>0.283099 0.286485 0.266171 1</string>
 	<key>DVTMarkupTextCodeFont</key>
-	<string>Menlo-Bold - 13.0</string>
+	<string>SFMono-Bold - 13.0</string>
 	<key>DVTMarkupTextEmphasisColor</key>
 	<string>0.973 0.973 0.949 1</string>
 	<key>DVTMarkupTextEmphasisFont</key>
@@ -128,51 +128,51 @@
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.character</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.number</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.string</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 		<key>xcode.syntax.url</key>
-		<string>Menlo-Bold - 14.0</string>
+		<string>SFMono-Bold - 16.0</string>
 	</dict>
 </dict>
 </plist>
