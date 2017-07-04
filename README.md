@@ -12,6 +12,8 @@
       Launch and configure QuickTime Player to record my iPhone screen & sound
     - **Pick Color** 🖌<br>
       Persistent macOS Color picker tool window
+    - **Music Tweet** 🎧<br>
+      Export track info played in iTunes
     - **http** 📥<br>
       Download the file at a given URL
     - **LaTeX** 💀<br>
