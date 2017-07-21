@@ -1,19 +1,26 @@
 # Misc Tools
 ###### Useful coding tools
 
-- Apple Script
-  - Find .scpt files from .app in `*.app/Contents/Resources/Scripts`
+- **LaTeX** base document
+- **Xcode**
+  - Put themes in: `~/Library/Developer/Xcode/UserData/FontAndColorThemes`
+- **Visual Studio Code**
+	- Put default settings in `~/Library/Application Support/Code/User/settings.json`
+- **Qt**
+  - Put themes in: `~/.config/QtProject/qtcreator/styles`
+- **Apple Script**
+  - Find original script `.scpt` files from `.app` in `*.app/Contents/Resources/Scripts`
   - My scripts:
-    - **Android Emulator** 🤖<br>
-      Launch Android Emulator with a smartphone configured in Android Studio
     - **App Valider** 🔓<br>
-      Remove mac OS Gatekeeper 1st launch verification from a given downloaded app
-    - **Capture** 📷<br>
-      Launch and configure QuickTime Player to record my iPhone screen & sound
+      Remove macOS Gatekeeper 1st launch verification from any given downloaded app/file
     - **Pick Color** 🖌<br>
       Persistent macOS Color picker tool window
     - **Music Tweet** 🎧<br>
       Export track info played in iTunes
+    - **Android Emulator** 🤖<br>
+      Launch Android Emulator with a smartphone configured in Android Studio
+    - **Capture** 📷<br>
+      Launch and configure QuickTime Player to record my iPhone screen & sound
     - **http** 📥<br>
       Download the file at a given URL
     - **LaTeX** 💀<br>
@@ -34,7 +41,3 @@
       Diff SVN at current folder
     - **ProSE SVN 📤 Commit**<br>
       Commit current folder, supports line breaks
-- Xcode
-  - Themes in: `~/Library/Developer/Xcode/UserData/FontAndColorThemes`
-- Qt
-  - Themes in: `~/.config/QtProject/qtcreator/styles`
