@@ -7,7 +7,8 @@
     Init templates: `git config --global init.templatedir '~/.git-templates'`\
     Create path: `mkdir -p ~/.git-templates/hooks/`\
     Put hook there, make it executable: `chmod a+x pre-commit`\
-    Reset all repositories that need it: `git init`
+    Reset all repositories that need it: `git init`\
+    *Use `git commit --no-verify` to bypass*
 - **Xcode**
   - Put themes in: `~/Library/Developer/Xcode/UserData/FontAndColorThemes`
 - **Visual Studio Code**
