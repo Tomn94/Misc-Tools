@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+# This pre-commit hook checks that you haven't left any Xcode placolder in
+# your staged code when you go to commit.
+
+# Work out what to diff against, really HEAD will work for any established repository.
+if git rev-parse --verify HEAD >/dev/null 2>&1
+then
+    against=HEAD
+else
+    # Initial commit: diff against an empty tree object
+    against=4b825dc642cb6eb9a060e54bf8d69288fbee4904
+fi
+
+diffstr=`git diff --cached $against | grep -e '^.*<#.\+#>.*$'`
+if [[ -n "$diffstr" ]] ; then
+    echo "You have an Xcode placeholder in your changes, you can't commit until it has been removed."
+    echo "Placeholders are mainly used for documentation or empty implementations, their raw text is: <#Description#>"
+    exit 1
+fi

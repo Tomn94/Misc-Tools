@@ -2,10 +2,16 @@
 ###### Useful coding tools
 
 - **LaTeX** base document
+- **git**
+  - **pre-commit hook**, avoids committing Xcode placeholders: `<#Description#>`\
+    Init templates: `git config --global init.templatedir '~/.git-templates'`\
+    Create path: `mkdir -p ~/.git-templates/hooks/`\
+    Put hook there, make it executable: `chmod a+x pre-commit`\
+    Reset all repositories that need it: `git init`
 - **Xcode**
   - Put themes in: `~/Library/Developer/Xcode/UserData/FontAndColorThemes`
 - **Visual Studio Code**
-	- Put default settings in `~/Library/Application Support/Code/User/settings.json`
+  - Put default settings in: `~/Library/Application Support/Code/User/settings.json`
 - **Qt**
   - Put themes in: `~/.config/QtProject/qtcreator/styles`
 - **Apple Script**
