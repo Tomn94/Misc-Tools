@@ -1,7 +1,8 @@
 {
+    "editor.insertSpaces": false,
     "editor.fontFamily": "'SFMono-Regular', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontWeight": "normal",
-    "editor.fontSize": 18,
+    "editor.fontSize": 17,
     "editor.cursorBlinking": "phase",
     "editor.scrollBeyondLastLine": false,
     "editor.acceptSuggestionOnEnter": "smart",
@@ -15,68 +16,68 @@
     "workbench.editor.openPositioning": "last",
     "window.restoreWindows": "all",
     "window.titleBarStyle": "native",
-    //"window.nativeTabs": true,
+    "window.nativeTabs": true,
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "workbench.editor.closeOnFileDelete": false,
     "workbench.colorTheme": "Material",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#1A1A1A",
+        "statusBar.noFolderBackground" : "#212121",
+        "statusBar.debuggingBackground": "#263238"
+    },
     "todohighlight.defaultStyle": {
         "borderRadius": "4px"
     },
     "todohighlight.keywords": [
         {
             "text": "TODO:",
-            "color": "#253238",
-            "backgroundColor": "#7ECAC4",
-            "overviewRulerColor": "7ECAC4"
-        },
-        {
-            "text": "MARK:",
-            "color": "#FFFFFF",
-            "backgroundColor": "#FF7700",
-            "isWholeLine": true
-        },{  
-            "text": "NOTE:",
-            "color": "green",
-            "backgroundColor": "#CCFF66",
-            "overviewRulerColor": "rgba(0,0,0,0)"
-        },{  
-            "text": "NB:",
             "color": "green",
             "backgroundColor": "#CCFF66",
             "overviewRulerColor": "rgba(0,0,0,0)"
         },{
+            "text": "MARK:",
+            "color": "#FFFFFF",
+            "backgroundColor": "#FF7700",
+            "isWholeLine": true
+        },{
+            "text": "NOTE:",
+            "color": "#253238",
+            "backgroundColor": "#7ECAC4",
+            "overviewRulerColor": "7ECAC4"
+        },{
+            "text": "NB:",
+            "color": "#253238",
+            "backgroundColor": "#7ECAC4",
+            "overviewRulerColor": "7ECAC4"
+        },{
             "text": "OPTIMIZE:",
             "color": "white",
             "backgroundColor": "#CC66FF"
-        },
-        {
+        },{
             "text": "REVIEW:",
             "color": "white",
             "backgroundColor": "#6EC100"
-        },
-        {
+        },{
             "text": "IDEA:",
             "color": "white",
             "backgroundColor": "#6E95FF"
-        },
-        {
+        },{
             "text": "CHANGED:",
             "color": "white",
             "backgroundColor": "#FFBD00"
-        },
-        {
+        },{
             "text": "HACK:",
             "color": "white",
             "backgroundColor": "#F26592"
-        },{  
+        },{
             "text": "!!!:",
             "color": "red",
             "border": "1px solid red",
             "backgroundColor": "rgba(0,0,0,.2)",
             "overviewRulerColor": "red"
-        },{  
+        },{
             "text": "???:",
             "color": "grey",
             "border": "1px solid grey",
